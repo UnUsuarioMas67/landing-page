@@ -33,7 +33,8 @@ header {
   background-color: var(--dark-bg-color);
 }
 
-.container {
+.container,
+#sign-up {
   max-width: var(--section-width);
   padding: 0 2rem;
   margin: auto;
