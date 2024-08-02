@@ -70,3 +70,39 @@ nav a {
 nav a:hover {
   color: var(--light-header-color);
 }
+
+#hero {
+  background-color: var(--dark-bg-color);
+}
+
+#hero > .container {
+  display: flex;
+  gap: 1.5rem;
+  padding: 150px 2rem;
+}
+
+h1 {
+  font-size: var(--hero-header-size);
+  color: var(--light-header-color);
+  font-weight: 800;
+}
+
+.hero-text p {
+  font-size: var(--hero-text-size);
+  color: var(--light-text-color);
+  margin-bottom: 1rem;
+}
+
+button {
+  color: var(--light-text-color);
+  font-size: var(--hero-text-size);
+  font-weight: 700;
+  background-color: var(--cta-bg);
+  padding: .5rem 2.5rem;
+  border: none;
+  border-radius: 8px;
+}
+
+button:hover {
+  filter: brightness(0.9);
+}
