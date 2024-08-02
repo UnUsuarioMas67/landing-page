@@ -139,3 +139,27 @@ button:hover {
   font-size: var(--hero-text-size);
   opacity: .9;
 }
+
+#quote {
+  background-color: var(--quote-bg-color);
+}
+
+#quote .container {
+  padding: 100px 6rem;
+}
+
+#quote p {
+  color: var(--dark-text-color);
+  font-size: var(--quote-text-size);
+  font-weight: 300;
+  font-style: italic;
+}
+
+#quote span {
+  display: block;
+  text-align: end;
+  color: var(--dark-text-color);
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 1rem;
+}
