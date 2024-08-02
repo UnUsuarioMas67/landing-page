@@ -36,13 +36,13 @@ header {
 .container {
   max-width: var(--section-width);
   padding: 0 2rem;
+  margin: auto;
 }
 
 header > .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: auto;
 }
 
 .logo {
