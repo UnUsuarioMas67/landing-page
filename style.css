@@ -99,7 +99,7 @@ button {
   font-size: var(--hero-text-size);
   font-weight: 700;
   background-color: var(--cta-bg);
-  padding: .5rem 2.5rem;
+  padding: .5rem 2rem;
   border: none;
   border-radius: 8px;
 }
